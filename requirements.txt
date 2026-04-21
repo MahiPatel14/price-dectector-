@@ -1,10 +1,9 @@
+# Backend Dependencies
+fastapi
+uvicorn[standard]
+pandas
 requests
 beautifulsoup4
-pandas
-numpy
-prophet
-scikit-learn
-matplotlib
-streamlit
+selenium
 python-dotenv
 apscheduler

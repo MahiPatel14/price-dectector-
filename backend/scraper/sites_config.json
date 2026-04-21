@@ -1,0 +1,22 @@
+{
+  "Flipkart": {
+    "url_template": "https://www.flipkart.com/search?q={query}",
+    "price_selector": "div._30jeq3, div.Nx9bqj",
+    "method": "requests"
+  },
+  "Amazon": {
+    "url_template": "https://www.amazon.in/s?k={query}",
+    "price_selector": "span.a-price-whole",
+    "method": "selenium"
+  },
+  "Myntra": {
+    "url_template": "https://www.myntra.com/search/{query}",
+    "price_selector": "span.product-discountedPrice",
+    "method": "requests"
+  },
+  "Croma": {
+    "url_template": "https://www.croma.com/search/?text={query}",
+    "price_selector": ".amount",
+    "method": "requests"
+  }
+}

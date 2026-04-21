@@ -1,33 +1,77 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-# Python bytecode
+# --- Python ---
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual environments
+# Virtual Environments
+.venv/
 venv/
 ENV/
 env/
-.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Logs and runtime files
-*.log
-data/raw/*.csv
+# --- Node.js / Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Environment variables
+# --- Environment Variables ---
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 *.env
+*.env.local
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-pip-wheel-metadata/
+# --- Project Specific ---
+backend/data/raw/*.csv
+backend/chromedriver.exe
+backend/chromedriver-win64/
+price_log.csv
+price_log_*.csv
 
-# IDE / editor
+# --- IDE / Editor ---
 .vscode/
 .idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
 
-# OS files
+# --- OS ---
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
